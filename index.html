@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.tailwindcss.com"></script>
+    <title>Calendar</title>
+</head>
+<body class="bg-slate-500">
+    <div class="bg-neutral-50 h-[40rem] w-[45rem] ml-auto mr-16 mt-20">
+        <div class="group ml-64">
+            <button
+              class="bg-white text-black font-semibold py-2 px-4 rounded inline-flex items-center text-2xl">
+              <span class="mr-1">Month</span>
+            </button>
+            <ul class="absolute hidden text-gray-700 pt-1 group-hover:block text-2xl font-medium">
+              <li class="">
+                <a
+                  class="rounded-t bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >January</a
+                >
+              </li>
+              <li class="">
+                <a class="bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >Feburary</a
+                >
+              </li>
+              <li class="">
+                <a
+                  class="rounded-b bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                  href="#"
+                  >March</a
+                >
+              </li>
+            </ul>
+            <button
+            class="bg-white text-black font-semibold py-2 px-4 rounded inline-flex items-center text-2xl">
+            <span class="mr-1">Year</span>
+          </button>
+          <ul class="absolute hidden text-gray-700 pt-1 group-hover:block ml-32 text-2xl font-medium">
+            <li class="">
+              <a
+                class="rounded-t bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                href="#"
+                >2020</a
+              >
+            </li>
+            <li class="">
+              <a class="bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                href="#"
+                >2022</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="rounded-b bg-white hover:bg-orange-400 hover:text-white py-2 px-4 block whitespace-no-wrap"
+                href="#"
+                >2023</a
+              >
+            </li>
+          </ul>
+          </div>    
+           <!--- <select class="ml-56 mt-6 text-3xl rounded pr-8">
+                <option value="Jan" class=>January</option>
+                <option value="Jan" class=>Feburary</option>
+                <option value="Jan" class=>March</option>
+                <option value="Jan" class=>April</option>
+                <option value="Jan" class=>May</option>
+                <option value="Jan" class=>June</option>
+                <option value="Jan" class=>July</option>
+                <option value="Jan" class=>August</option>
+                <option value="Jan" class=>September</option>
+                <option value="Jan" class=>October</option>
+                <option value="Jan" class=>November</option>
+                <option value="Jan" class=>December</option>
+            </select>
+            <select class="text-3xl rounded pl-8">
+                <option value="yr_1">2021</option>
+                <option value="yr_2">2022</option>
+                <option value="yr_3">2023</option>
+                <option value="yr_4">2024</option>
+                <option value="yr_5">2025</option>
+                <option value="yr_6">2026</option>
+                <option value="yr_7">2027</option>
+                <option value="yr_8">2028</option>
+            </select>-->
+        <!-- </div> -->
+        <div class="h-12">
+            <div class="mt-8  flex space-x-20 h-20 w-full  text-2xl">
+                <div class="ml-8">Mo</div>
+                <div>Tu</div>
+                <div>We</div>
+                <div>Th</div>
+                <div>Fr</div>
+                <div>Sa</div>
+                <div class="mr-8">Su</div>
+            </div>
+        </div>
+        <table class="table-auto text-3xl w-full h-96 ml-12">
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    
+                </tr>
+            </tbody>
+
+        </table>
+        <!--<ul class="days flex text-2xl w-full flex-wrap ">
+            <li class="">1</li>
+            <li class="">2</li>
+            <li class="">3</li>
+            <li >4</li>
+            <li >5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+        </ul>-->
+        <div class="ml-auto pt-4">
+            <button class="shadow-lg bg-nautral-600 hover:bg-orange-600 hover:text-white text-black font-bold text-xl ml-44 mr-8 py-2 px-8 rounded-lg">Cancel</button>
+            <button class="shadow-lg bg-nautral-600 hover:bg-orange-600 hover:text-white text-black font-bold text-xl ml-8 py-2 px-8 rounded-lg">Set Date</button>
+        </div>
+    </div>
+    
+</body>
+</html>
